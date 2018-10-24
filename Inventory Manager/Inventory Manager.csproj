@@ -45,14 +45,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="about.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addInventory.Designer.cs">
+      <DependentUpon>addInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customButton.Designer.cs">
+      <DependentUpon>customButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customButtonTwo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="customButtonTwo.Designer.cs">
+      <DependentUpon>customButtonTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryIn.Designer.cs">
+      <DependentUpon>inventoryIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryOut.Designer.cs">
+      <DependentUpon>inventoryOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InverntoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InverntoryList.Designer.cs">
+      <DependentUpon>InverntoryList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainLayout.Designer.cs">
+      <DependentUpon>mainLayout.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addInventory.resx">
+      <DependentUpon>addInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customButton.resx">
+      <DependentUpon>customButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customButtonTwo.resx">
+      <DependentUpon>customButtonTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryIn.resx">
+      <DependentUpon>inventoryIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inventoryOut.resx">
+      <DependentUpon>inventoryOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InverntoryList.resx">
+      <DependentUpon>InverntoryList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainLayout.resx">
+      <DependentUpon>mainLayout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +128,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\InventroyListClass.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

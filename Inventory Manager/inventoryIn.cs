@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Inventory_Manager
 {
-    public partial class Form1 : Form
+    public partial class inventoryIn : Form
     {
-        public Form1()
+        public inventoryIn()
         {
             InitializeComponent();
+        }
+
+        private void inventoryIn_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Hide();
+            this.Parent = null;
+            e.Cancel = true;
         }
     }
 }
